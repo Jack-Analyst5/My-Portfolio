@@ -1,7 +1,3 @@
-# New in Github
-My first repository on Github.
-
-
 # Jack delos Reyes - Data Analyst Portfolio
 ## About
 
