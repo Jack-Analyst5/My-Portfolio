@@ -186,6 +186,60 @@ Although the company achieved strong historical sales performance, the current s
 
 ![Forecast](PowerBI_5.png)
 
+# [Internship](https://github.com/Jack-Analyst5/Internship)
+Extending ChildFund’s Power BI Dashboard to Four New Countries
+
+1. The problem I was trying to solve
+
+ChildFund’s MERL team (Monitoring, Evaluation, Research and Learning) already had a working Power BI dashboard for the CCAIR and Impact Programmes. The previous intern built it, and it covered the Solomon Islands, Kiribati and Sri Lanka. My task was to bring four more countries into the same dashboard: Papua New Guinea, Vanuatu, Emali (Kenya) and Rohingya (Bangladesh).
+
+This was harder than just adding data. The dashboard was built around programmes and their countries. Vanuatu sits under the Impact Programme, so it fit easily. PNG, Emali and Rohingya turned out to be stand-alone projects with no programme above them. I had to work out how to fit three individual projects into a structure that assumed everything belonged to a programme.
+
+There was a second problem. The source data labelled results by project period (Year 1, Year 2, quarters, Baseline, Midline, Endline) and did not use real dates. This meant the dashboard could not answer a simple question: “What was running in this financial year?”
+
+2. Where the data came from
+
+The data came from ChildFund’s own programme reporting, and the formats were inconsistent:
+
+PNG: Helpline data as messy Excel exports.
+Emali and Rohingya: Results reported in Word documents.
+Vanuatu: Already normalized in the dashboard’s backend.
+Existing countries: Already loaded by the previous intern.
+
+The live dashboard reads from a SharePoint source file, so the data stays current as new reporting comes in.
+
+Portfolio note: the project was covered by NDAs, so I do not show real ChildFund figures in this portfolio. I describe the method only.
+
+3. What tools I used and why
+
+Excel: I used it to pull the data out of the Word documents and into workable tables. It was the quickest everyday tool for this job.
+Power Query: I used it to clean and reshape the messy data into a consistent structure. It records every step, so the work is repeatable when new data arrives.
+Power BI (data model and relationships): I used it to connect each new project to the existing dashboard tables. Disconnected imports would not have filtered properly with the rest of the data.
+SharePoint: It hosts the live source file, so ChildFund keeps one shared file that the dashboard reads from.
+Project planning tools: I kept a ten-week plan, held weekly check-ins with my sponsor and mentor, and documented every decision.
+
+The reasoning behind these choices was to use simple, familiar tools and build on the existing design. I did not rebuild what the previous intern had made.
+
+4. What I found
+
+I found the following:
+
+Projects need their own place in the model. PNG, Emali and Rohingya were stand-alone projects, not programmes. Fitting them in meant adjusting the model, not just loading the data.
+
+Relative periods can be converted into real dates. I built a reference table that turns each period into real dates, anchored to that project’s own start date. Each date is then classified into ChildFund’s July-to-June financial year. A second table shows which projects were running in a given year, even if no results had been submitted yet.
+
+A simpler solution was enough. My mentor and I first discussed a full calendar table. The purpose-built reference tables solved the same problem with less complexity.
+
+The dashboard needed to change as well as the data. I renamed “Programme Overview” to “Portfolio Overview” and folded PNG’s separate page into it. I also renamed the SharePoint file to drop the word “Final”, since it is a living file.
+
+How someone else could use the insight
+ChildFund staff: They can use the Financial Year selector to pick a year and see which countries, thematic areas and projects were running, without digging through reports.
+The next intern or analyst: My Handover Report and User Guide explain the model and what is still open. That work includes cleaning Rohingya’s data, merging redundant date tables, applying consistent naming conventions, and adding bridge tables so a project can have more than one thematic area.
+
+Other organisations: The approach works anywhere results are reported by project period and not by calendar date. Convert relative periods into real dates using each project’s start date, then group them into your financial year.
+
+Anyone extending someone else’s work: Respect the original design as the foundation. Change only what genuinely needs changing, and be deliberate about it.
+
 
 
 
