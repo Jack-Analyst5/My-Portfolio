@@ -1,11 +1,13 @@
 # Jack delos Reyes - Data Analyst Portfolio
 ## About
 
-Hi, I'm Jack! I’m a teacher by profession with over 15 years of experience in education and data management, now transitioning into a career in Data Analytics. Through my recent training, I’ve developed strong skills in SQL, Excel, Power BI and Python, along with hands-on experience in data cleaning, analysis, and visualisation. 
+Hi, I’m Jack! I’m a teacher by profession with over 15 years of experience in education, case management and data management, now building a career in Data Analytics. Through my training, I’ve developed strong skills in SQL, Excel, Power BI and Python, along with hands-on experience in data cleaning, analysis and visualisation.
 
-I decided to enroll with Mission Ready HQ to deepen my knowledge in data analytics, where I gained practical experience working with large datasets (5K–85K+ records), building dashboards, performing KPI reporting, and uncovering insights to support data-driven decision-making. 
+I enrolled with Mission Ready HQ to deepen my knowledge in data analytics, where I worked with large datasets (5K-85K+ records), built dashboards, produced KPI reports and uncovered insights to support data-driven decision-making.
 
-I’m passionate about using data to solve real-world problems and continuously improving my analytical skills. This repository showcases my skills, shares part of my projects, and tracks my progress in Data Analytics / Data Science related topics.
+I completed the Data Analyst Diploma and a 10-week Power BI internship with ChildFund, working with their MERL (Monitoring, Evaluation, Research and Learning) team. I extended an existing dashboard to four new countries: Papua New Guinea, Vanuatu, Emali (Kenya) and Rohingya (Bangladesh). The data arrived in messy Excel exports and Word documents, so I cleaned and reshaped it with Excel and Power Query and connected it to the existing data model. I also built a Financial Year selector, so anyone can pick a year and see which projects were running. Along the way, I learned to work with stakeholders, respect another person’s design while improving it, and handle sensitive data responsibly.
+
+My years in education and case management taught me to listen closely, work with people and take accountability, and I now bring those same habits to my analytical work. I’m passionate about using data to solve real-world problems and continuously improving my skills. This repository showcases my projects and tracks my progress in Data Analytics and Data Science topics.
 
 My CV is available in [PDF](https://github.com/Jack-Analyst5/CV/blob/main/CV_Jack_delos_Reyes.pdf)
 
