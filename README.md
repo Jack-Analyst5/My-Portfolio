@@ -25,7 +25,7 @@ My CV is available in [PDF](https://github.com/Jack-Analyst5/CV/blob/main/CV_Jac
     --[Predictive Analytic Models](https://github.com/Jack-Analyst5/Machine-Learning-Regression-Models/blob/main/Mission%205%20(2).ipynb)
   - [SQL](https://github.com/Jack-Analyst5/SQL)
   - [Power BI](https://github.com/Jack-Analyst5/Power-BI)
- 
+ - [Internship](https://github.com/Jack-Analyst5/Internship/issues/1)
 
 ---
 
